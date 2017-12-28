@@ -1,0 +1,1717 @@
+2017/12/28 17:17:21 [error] 8004#2556: *2 CreateFile() "./html/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2017/12/28 17:17:44 [error] 8004#2556: *4 CreateFile() "./html/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2017/12/28 17:35:23 [alert] 5860#10232: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:35:24 [alert] 10168#8732: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:41:05 [alert] 9948#6392: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:41:06 [alert] 9272#8376: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:41:19 [error] 9272#6892: *1 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:41:43 [error] 9272#6892: *4 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "localhost"
+2017/12/28 17:42:21 [alert] 7552#9132: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:42:22 [alert] 9684#6428: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:42:24 [error] 9684#9380: *1 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:42:28 [error] 9684#9380: *2 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:21 [alert] 4328#8672: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:44:21 [alert] 9716#5212: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:44:27 [error] 9716#2460: *1 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:28 [error] 9716#2460: *2 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:28 [error] 9716#2460: *3 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:28 [error] 9716#2460: *4 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:29 [error] 9716#2460: *5 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:57 [error] 9716#2460: *6 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:58 [error] 9716#2460: *7 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:58 [error] 9716#2460: *8 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:58 [error] 9716#2460: *9 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:58 [error] 9716#2460: *10 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:59 [error] 9716#2460: *11 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:59 [error] 9716#2460: *12 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:59 [error] 9716#2460: *13 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:44:59 [error] 9716#2460: *14 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:45:17 [error] 9716#2460: *15 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:45:18 [error] 9716#2460: *16 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:45:18 [error] 9716#2460: *17 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:45:18 [error] 9716#2460: *18 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:45:55 [alert] 6736#9336: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:45:55 [alert] 9640#8956: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:45:58 [error] 9640#5324: *1 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:45:59 [error] 9640#5324: *2 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:45:59 [error] 9640#5324: *3 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:45:59 [error] 9640#5324: *4 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:45:59 [error] 9640#5324: *5 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:45:59 [error] 9640#5324: *6 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:00 [error] 9640#5324: *7 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:00 [error] 9640#5324: *8 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:00 [error] 9640#5324: *9 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:41 [alert] 4672#9992: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:46:41 [alert] 9044#8104: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:46:44 [error] 9044#7260: *1 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:44 [error] 9044#7260: *2 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:44 [error] 9044#7260: *3 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:44 [error] 9044#7260: *4 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:45 [error] 9044#7260: *5 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:45 [error] 9044#7260: *6 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:45 [error] 9044#7260: *7 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:45 [error] 9044#7260: *8 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:45 [error] 9044#7260: *9 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:46 [error] 9044#7260: *10 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:46 [error] 9044#7260: *11 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:46:46 [error] 9044#7260: *12 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:48:16 [error] 9044#7260: *13 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:48:49 [error] 9044#7260: *14 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:48:49 [error] 9044#7260: *15 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:48:49 [error] 9044#7260: *16 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:48:50 [error] 9044#7260: *17 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:48:50 [error] 9044#7260: *18 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:48:50 [error] 9044#7260: *19 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:49:00 [error] 9044#7260: *20 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:49:00 [error] 9044#7260: *21 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:49:00 [error] 9044#7260: *22 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:49:00 [error] 9044#7260: *23 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:49:01 [error] 9044#7260: *24 lua entry thread aborted: runtime error: ./app/control/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file './site/lualib/resty\template.ljbc'
+	no file './site/lualib/resty\template/init.ljbc'
+	no file './lualib/resty\template.ljbc'
+	no file './lualib/resty\template/init.ljbc'
+	no file './site/lualib/resty\template.lua'
+	no file './site/lualib/resty\template/init.lua'
+	no file './lualib/resty\template.lua'
+	no file './lualib/resty\template/init.lua'
+	no file '.\resty\template.lua'
+	no file 'D:\learn-lua\lualib\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template.lua'
+	no file 'D:\learn-lua\lua\resty\template\init.lua'
+	no file './site/lualib/resty\template.so'
+	no file './lualib/resty\template.so'
+	no file '.\resty\template.dll'
+	no file 'D:\learn-lua\lualib\resty\template.so'
+	no file 'D:\learn-lua\resty\template.dll'
+	no file 'D:\learn-lua\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\learn-lua\lualib\resty.so'
+	no file 'D:\learn-lua\resty.dll'
+	no file 'D:\learn-lua\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./app/control/index.lua:1: in function <./app/control/index.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /lua/index HTTP/1.1", host: "127.0.0.1"
+2017/12/28 17:51:42 [alert] 9484#8036: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:51:42 [alert] 6776#940: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:51:45 [error] 6776#772: *1 failed to load external Lua file "./app/control/html/css/index.css.lua": cannot open ./app/control/html/css/index.css.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /lua/html/css/index.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/index"
+2017/12/28 17:53:08 [error] 6776#772: *2 failed to load external Lua file "./app/control/app/css/index.css.lua": cannot open ./app/control/app/css/index.css.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /lua/app/css/index.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/index"
+2017/12/28 17:53:09 [error] 6776#772: *2 failed to load external Lua file "./app/control/app/css/index.css.lua": cannot open ./app/control/app/css/index.css.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /lua/app/css/index.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/index"
+2017/12/28 17:53:32 [error] 6776#772: *2 CreateFile() "./html/app/css/index.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /app/css/index.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/index"
+2017/12/28 17:54:52 [alert] 9052#9268: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:54:52 [alert] 8976#5980: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 17:55:42 [error] 8976#5964: *2 failed to load external Lua file "./app/control/static/css/index.css.lua": cannot open ./app/control/static/css/index.css.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /lua/static/css/index.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/index"
+2017/12/28 18:04:23 [alert] 9528#4264: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 18:04:23 [emerg] 9528#4264: unexpected "}" in ./conf/nginx.conf:58
+2017/12/28 18:04:42 [alert] 3004#8228: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 18:04:42 [alert] 9760#9616: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 18:08:35 [alert] 8284#8872: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 18:08:35 [alert] 8832#6952: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 18:08:41 [error] 8832#2732: *2 CreateFile() "./app/css/icon.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /static/css/icon.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/real"
+2017/12/28 18:08:41 [error] 8832#2732: *1 CreateFile() "./app/css/msicon.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /static/css/msicon.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/real"
+2017/12/28 18:10:35 [error] 8832#2732: *7 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:10:40 [error] 8832#2732: *7 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:13:29 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:13:30 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:13:30 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:13:30 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:14:12 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:14:13 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:14:13 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:14:13 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:14:13 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:14:56 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:14:56 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:14:56 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:14:56 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:14:57 [error] 8832#2732: *8 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:10 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:11 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:11 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:11 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:12 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:12 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:15 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1"
+2017/12/28 18:16:19 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:20 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:20 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:20 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:20 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:21 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:21 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:16:21 [error] 8832#2732: *9 CreateFile() "./html/static/nimages/nicon/icon-back.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/nimages/nicon/icon-back.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static/css/msicon.css"
+2017/12/28 18:19:47 [alert] 6744#9440: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 18:19:47 [alert] 9548#6752: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/28 18:20:43 [error] 9548#5572: *1 CreateFile() "./html/msonion-web/adverimg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /msonion-web/adverimg?tmn=&imgType=6 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/real"
+2017/12/28 18:20:43 [error] 9548#5572: *1 CreateFile() "./html/msonion-web/getMemberInfo" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "POST /msonion-web/getMemberInfo HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/real?tmn=1"
+2017/12/28 18:20:43 [error] 9548#5572: *4 CreateFile() "./html/msonion-web/adverimg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /msonion-web/adverimg?tmn=1&imgType=6 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/real?tmn=1"
