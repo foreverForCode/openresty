@@ -1715,3 +1715,26 @@ coroutine 0:
 2017/12/28 18:20:43 [error] 9548#5572: *1 CreateFile() "./html/msonion-web/adverimg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /msonion-web/adverimg?tmn=&imgType=6 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/real"
 2017/12/28 18:20:43 [error] 9548#5572: *1 CreateFile() "./html/msonion-web/getMemberInfo" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "POST /msonion-web/getMemberInfo HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/real?tmn=1"
 2017/12/28 18:20:43 [error] 9548#5572: *4 CreateFile() "./html/msonion-web/adverimg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /msonion-web/adverimg?tmn=1&imgType=6 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/real?tmn=1"
+2017/12/29 09:41:18 [alert] 1720#2720: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/29 09:41:18 [alert] 5676#5236: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:47
+2017/12/29 09:41:29 [error] 5676#5172: *1 CreateFile() "./html/real" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /real HTTP/1.1", host: "127.0.0.1"
+2017/12/29 09:41:29 [error] 5676#5172: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/real"
+2017/12/29 09:41:48 [error] 5676#5172: *1 CreateFile() "./html/temp" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /temp HTTP/1.1", host: "127.0.0.1"
+2017/12/29 09:41:51 [error] 5676#5172: *1 CreateFile() "./html/temp" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /temp HTTP/1.1", host: "127.0.0.1"
+2017/12/29 09:42:10 [error] 5676#5172: *16 CreateFile() "./html/msonion-web/adverimg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /msonion-web/adverimg?tmn=&imgType=6 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/real"
+2017/12/29 09:42:11 [error] 5676#5172: *16 CreateFile() "./html/msonion-web/getMemberInfo" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "POST /msonion-web/getMemberInfo HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/real?tmn=1"
+2017/12/29 09:42:11 [error] 5676#5172: *16 CreateFile() "./html/msonion-web/adverimg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /msonion-web/adverimg?tmn=1&imgType=6 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/lua/real?tmn=1"
+2017/12/29 09:49:39 [alert] 5604#5772: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:44
+2017/12/29 09:49:39 [emerg] 5604#5772: unexpected "}" in ./conf/nginx.conf:69
+2017/12/29 09:53:20 [alert] 2480#5660: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:44
+2017/12/29 09:53:20 [alert] 5212#3144: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:44
+2017/12/29 09:57:01 [alert] 7100#7104: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:44
+2017/12/29 09:57:01 [alert] 7160#7164: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:44
+2017/12/29 10:00:25 [alert] 5836#6044: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:44
+2017/12/29 10:00:25 [alert] 1104#6376: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:44
+2017/12/29 10:02:47 [alert] 5292#3144: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:44
+2017/12/29 10:02:48 [alert] 7052#7112: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:44
+2017/12/29 10:07:06 [error] 7052#5160: *3 failed to load external Lua file "./app/control/args.lua": ./app/control/args.lua:1: unexpected symbol near '$', client: 127.0.0.1, server: localhost, request: "GET /lua/args?name=10 HTTP/1.1", host: "127.0.0.1"
+2017/12/29 10:12:54 [error] 7052#5160: *5 CreateFile() "./html/proxy" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /proxy HTTP/1.1", host: "127.0.0.1"
+2017/12/29 10:13:04 [alert] 6908#6348: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:44
+2017/12/29 10:13:04 [alert] 2984#7100: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:44
