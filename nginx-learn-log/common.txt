@@ -1,0 +1,17 @@
+1. nginx 常用命令
+
+    1. 检测nginx 配置是否正确
+
+    nginx -t
+
+    2. 重新加载 nginx.conf
+
+    nginx -s reload
+
+    3. 停止
+
+    nginx -s stop
+
+    4. 启动
+
+    start nginx
